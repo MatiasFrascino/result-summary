@@ -70,7 +70,7 @@ strong{
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    height: 90vh;
+    height: 40vw;
     width: 17vw;
 }
 .box__result__circle{
@@ -99,7 +99,7 @@ strong{
     align-items: start;
     margin-left: 3vw;
     justify-content: space-evenly;
-    height: 90vh;
+    height: 40vw;
     width: auto;
 }
 .box__summary__stats{
