@@ -207,7 +207,7 @@ strong{
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 100vh;
+        height: auto;
         background-color: black;
     }
     h1{
@@ -249,12 +249,14 @@ strong{
     }
     .box{
         height: auto;
+        margin: 10vw;
         width: 80%;
         background-color: rgb(255, 255, 255);
         border-radius: 8vw;
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
     }
     .box__result{
         width: 100%;
@@ -266,12 +268,12 @@ strong{
         border-bottom-left-radius: 4vw;
     }
     .box__result__components{
-        height: 100vw;
+        height: 100%;
         width: 45vw;
     }
     .box__summary__components{
         margin-left: 10vw;
-        height: 90vw;
+        height: 100%;
         width: 100%;
     }
     .box__result__circle{
